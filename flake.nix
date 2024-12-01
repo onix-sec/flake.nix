@@ -76,7 +76,7 @@
             androguard
             android-tools # android-tools-adb
             anew
-            python311Packages.angr
+            # python311Packages.angr # FIXME: broken
             apksigner
             apktool
             arjun
