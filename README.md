@@ -4,7 +4,19 @@ Will require arround 23Gb in `/nix/store/`.
 
 ## Usage
 
-Install and use:
+### Requirements
+
+- [Nix](https://nixos.org/download/)
+- Configure Nix to allow `nix-command` and `flakes`:
+
+  ```bash
+  mkdir ~/.config/nix
+  cat > ~/.config/nix/nix.config << EOF
+  experimental-features = nix-command flakes
+  EOF
+  ```
+
+### Install
 
 ```bash
 git clone https://github.com/onix-sec/flake.nix && cd flake.nix
