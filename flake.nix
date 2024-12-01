@@ -24,6 +24,7 @@
         let
           pkgs = import nixpkgs {
             inherit system;
+            config.allowUnfree = true;
             overlays = [
               nixsecpkgs.overlays.default
             ];
@@ -67,6 +68,7 @@
             waybackurls
             webclientservicescanner
             whatportis
+            xsser
 
             # aclpwn
             adidnsdump
@@ -117,7 +119,7 @@
             # corscanner
             cowpatty
             # crackhound
-            crackmapexec
+            netexec # maintained fork of crackmapexec
             crunch
             # cupp
             # cyperoth
@@ -192,7 +194,7 @@
             ipinfo
             iptables
             jadx
-            jd-gui
+            # jd-gui # FIXME fails to build
             # jdwp
             john
             joomscan
@@ -220,7 +222,7 @@
             # lnkup
             python312Packages.lsassy # lsassy
             ltrace
-            maigret
+            # maigret # FIXME: build fails
             maltego
             # manspider
             libmysqlclient # mariadb-client
@@ -257,7 +259,7 @@
             # osrframework
             # pass
             # PassTheCert
-            python311Packages.patator # patator
+            python311Packages.patator
             # pcredz
             # pcsclite # pcsc
             pdfcrack
@@ -305,7 +307,7 @@
             rlwrap
             # roastinthemiddle
             rockyou
-            routersploit
+            # routersploit # FIXME: fail tests
             # rsactftool
             rsync
             rtl_433 # rtl-433
@@ -373,9 +375,8 @@
             wuzz
             # XSpear
             # xsrfprobe
-            xsser
             # xsstrike
-            tightvnc # xtightvncviewer
+            # tightvnc # FIXME: not maintained anymore
             yt-dlp
             # ysoserial
             # zerologon
