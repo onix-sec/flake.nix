@@ -1,5 +1,5 @@
 {
-  description = "Nix Hack";
+  description = "Onix shell";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-24.11";
