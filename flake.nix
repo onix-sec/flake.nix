@@ -47,6 +47,7 @@
             goldencopy
             gosecretsdump
             goshs
+            gpp-decrypt
             haiti
             hakrevdns
             hashonymize
@@ -166,7 +167,6 @@
             # gopherus
             # gosecretsdump
             gowitness
-            # gpp-decrypt
             gqrx
             gron
             # h2csmuggler
