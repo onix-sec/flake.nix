@@ -38,6 +38,7 @@
             cmsmap
             crackhound
             dfscoerce
+            entropy
             finduncommonshares
             git-dumper
             gmsadumper
@@ -51,6 +52,7 @@
             haiti
             hakrevdns
             hashonymize
+            homoglyph
             jackit
             keyt
             pof
