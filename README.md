@@ -20,6 +20,11 @@ Will require arround 23Gb in `/nix/store/`.
 
 ```bash
 git clone https://github.com/onix-sec/flake.nix && cd flake.nix
+```
+
+Comment out the tools you don't need in `flake.nix`.
+
+```bash
 nix develop
 ```
 
