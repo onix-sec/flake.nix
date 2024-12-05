@@ -1,6 +1,4 @@
-# Onix flake.nix
-
-Will require arround 23Gb in `/nix/store/`.
+# Onix Shell
 
 ## Usage
 
@@ -19,8 +17,8 @@ Will require arround 23Gb in `/nix/store/`.
 ### Install
 
 ```bash
-git clone https://github.com/onix-sec/flake.nix
-cd flake.nix
+git clone https://github.com/onix-sec/onix-shell
+cd onix-shell
 ```
 
 Edit `flake.nix` to choose the tools you need.
@@ -35,4 +33,4 @@ nix develop
 
 ## License
 
-Onix flake.nix is licensed under [MIT](./LICENSE).
+Onix shell is licensed under [MIT](./LICENSE).
