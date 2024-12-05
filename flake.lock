@@ -55,11 +55,11 @@
         "systems": "systems"
       },
       "locked": {
-        "lastModified": 1733334382,
-        "narHash": "sha256-vCUEP+nHy0AzSeVqlZSAMSxOgtNw6TxqlgR8vPfveJI=",
+        "lastModified": 1733382948,
+        "narHash": "sha256-LHbJWN8YMxqsjZdJL3gQRLfP3CW6Eo4Mvxzgy+Zg+Zc=",
         "owner": "onix-sec",
         "repo": "nixsecpkgs",
-        "rev": "75826f49b622fca22ec86c99c7ead3280f92edb4",
+        "rev": "37fe2497ddf72cf97528afe58fee6fbdae157bbb",
         "type": "github"
       },
       "original": {

@@ -19,10 +19,11 @@ Will require arround 23Gb in `/nix/store/`.
 ### Install
 
 ```bash
-git clone https://github.com/onix-sec/flake.nix && cd flake.nix
+git clone https://github.com/onix-sec/flake.nix
+cd flake.nix
 ```
 
-Comment out the tools you don't need in `flake.nix`.
+Edit `flake.nix` to choose the tools you need.
 
 ```bash
 nix develop
