@@ -53,7 +53,7 @@
             # hashonymize
             # homoglyph
             # jackit
-            # keyt
+            keyt
             # pof
             # pywhisket
             # robotstester
