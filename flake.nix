@@ -117,7 +117,7 @@
             # exifprobe
             # exiftool
             # exiv2
-            # eye-witness
+            # eyewitness
             # fcrackzip
             # feroxbuster
             # ffuf
